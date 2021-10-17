@@ -1,0 +1,79 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-size: 16px;
+   color: #333;
+   background: #333;
+   display: flex;
+   justify-content: center; 
+   height: 70vh;
+   margin-top: 100px;
+}
+
+.container{
+   max-width: 500px;
+   justify-content: center;
+   background: #fff;
+}
+
+#header{
+   margin-top: 50px;
+   padding: 25px;
+   text-align: center;
+}
+
+#calc-form{
+   padding: 20px;
+}
+
+.amount, .n-times, .summation{
+   display: flex;
+}
+
+span{
+   background: rgba(71, 71, 71, 0.349);
+   padding: 10px;
+   margin: 5px 0;
+   border: 1px solid rgba(175, 171, 171, 0.301);
+   border-radius: 5px 0 0 5px;
+
+}
+
+input{
+   font-size: 16px;
+   width: 100%;
+   border-radius: 0 0 5px 0;
+   border: 1px solid rgba(160, 156, 156, 0.466);
+   padding: 7px;
+   margin: 5px 0;
+   outline: none;
+}
+
+.submit{
+   background: rgba(36, 35, 35, 0.986);
+   color: #fff;
+   border-radius: 5px;
+   font-weight: 500;
+   cursor: pointer;
+}
+
+.error {
+	color: red;
+}
+.hide {
+	display: none;
+}
+
+.attribution{
+   text-align: center;
+   padding-top: 40px;
+}
+a{
+   text-decoration: none;
+   color: #333;
+}
+
